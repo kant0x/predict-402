@@ -1,0 +1,9 @@
+{
+  "btc_xgboost": {
+    "address": "0x767a056C234AEf183C9f67ccfB3700e5E02E334C",
+    "model_cid": "shoeiico/og_btcusdt_1hour_return_xgb",
+    "name": "BTC XGBoost",
+    "deployed_at": 1771851423.1819944,
+    "expires_at": 1771937823.1819944
+  }
+}

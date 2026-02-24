@@ -1,0 +1,13 @@
+{
+    "name": "vault402-contracts",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "hardhat test",
+        "deploy": "hardhat run scripts/deploy.js --network opengradient"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "hardhat": "^2.22.1",
+        "dotenv": "^16.4.5"
+    }
+}

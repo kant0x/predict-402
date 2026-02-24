@@ -1,0 +1,7 @@
+opengradient
+web3
+flask
+flask-cors
+python-dotenv
+numpy
+requests
