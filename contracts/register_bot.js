@@ -2,7 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
     console.log("Starting...");
-    const BOT_PK = "13aaa8e5bbd530116a5369164b6ab48b6af5854dbcb04b6a763a6a1206dc04ec";
+    const BOT_PK = process.env.PRIVATE_KEY; // Set via .env
     const predictAddress = "0xc0d3b105382E60c2a89cfdB83919ebb43bD977fE"; // New Predict402
 
     // We already have hardhat provider
